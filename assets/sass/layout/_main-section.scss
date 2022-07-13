@@ -1,0 +1,27 @@
+.main {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    &__title {
+        color: $nickel;
+        margin-bottom: 75px;
+        letter-spacing: 0.63px;
+        line-height: 45px;
+    }
+    &__text {
+    color: $raisin-black;
+    letter-spacing: 0.56px;
+    line-height: 45px;
+    font-weight: $font-light;
+    }
+    &__text--emphasis {
+        color: $spanish-pink;
+    }
+    &__button-container {
+        padding-top: 55px;
+        display: flex;
+        justify-content: center;
+        @include respond-to($bp-md){
+            justify-content: flex-start;
+        }
+    }
+}

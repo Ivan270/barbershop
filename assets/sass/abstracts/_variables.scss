@@ -30,3 +30,17 @@ $x-large: 30px;
 $large: 18px;
 $medium: 16px;
 $small: 12px;
+
+// Breakpoints
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 996px;
+$bp-xl: 1200px;
+
+// Bootstrap Overrides
+$navbar-dark-hover-color: $ruddy-pink !default;
+$btn-active-bg-shade-amount:      0%;
+$btn-active-bg-tint-amount:       0%;
+$pagination-border-radius: 30px;
+$pagination-focus-color: #fff;
+$pagination-focus-box-shadow: none;

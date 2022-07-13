@@ -1,0 +1,19 @@
+.main__button {
+    background-color: $nickel;
+    border: solid $nickel;
+    border-radius: 30px;
+    color: $white;
+    letter-spacing: 0.56px;
+    line-height: 45px;
+    padding: 0 10px;
+    margin-right: 10px;
+    &:hover {
+        background-color: $light-gray;
+        border-color: $light-gray;
+    }
+    &:focus {
+        border: solid;
+        border-color: $nickel;
+        background-color: $light-gray;
+    }
+}

@@ -1,9 +1,18 @@
 // /* Base Typography */
-h1, h2 {
+* {
+    font-family: $roboto;
+    font-weight: $font-light;
+}
+h1, h2, {
     font-family: $playfair;
     font-weight: $font-black;
     font-style:italic;
 }
-h3, h4, h5, h6 {
+h4 {
+    font-family: $playfair;
+    font-weight: $font-regular;
+    font-size: $large;
+}
+h3, h5, h6 {
     font-family: $roboto;
 }

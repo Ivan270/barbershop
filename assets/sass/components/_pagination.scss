@@ -1,0 +1,18 @@
+.pagination {
+    & a {
+        color: $eerie-black;
+        font-size: 16px;
+        font-weight: $font-regular;
+    }
+    & a:hover {
+        color: $white;
+        background-color: $nickel;
+    }
+    & a:active {
+        color: $white;
+        background-color: $nickel;
+    }
+    .inactivo {
+        color: $nickel;
+    }
+}
